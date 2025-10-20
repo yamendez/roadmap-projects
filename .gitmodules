@@ -1,0 +1,3 @@
+[submodule "github-activity"]
+	path = Backend Projects/github-activity
+	url = https://github.com/yamendez/github-activity.git
