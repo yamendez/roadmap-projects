@@ -1,3 +1,6 @@
 [submodule "github-activity"]
 	path = Backend Projects/github-activity
 	url = https://github.com/yamendez/github-activity.git
+[submodule "task-cli"]
+	path = Backend Projects/task-cli
+	url = https://github.com/yamendez/task-cli.git
