@@ -4,3 +4,6 @@
 [submodule "task-cli"]
 	path = Backend Projects/task-cli
 	url = https://github.com/yamendez/task-cli.git
+[submodule "unit-converter"]
+	path = Backend Projects/unit-converter
+	url = https://github.com/yamendez/unit-converter.git
