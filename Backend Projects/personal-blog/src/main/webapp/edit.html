@@ -2,9 +2,49 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>$Title$</title>
+  <title>Edit</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
 <body>
-$END$
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        <a class="nav-link" href="#">Login</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<!--Update Article-->
+<div class="container">
+  <h1 >Update Article</h1>
+  <div class="card">
+    <div class="card-body">
+      <form action="">
+        <div class="mb-3">
+          <label for="title" class="form-label">Article Title</label>
+          <input class="form-control" type="text" name="title" id="title">
+        </div>
+        <div class="mb-3">
+          <label for="date">Publishing Date</label>
+          <input type="text" class="form-control" name="date" id="date">
+        </div>
+        <div class="mb-3">
+          <label for="content">Content</label>
+          <textarea class="form-control" name="content" id="content" rows="5"></textarea>
+        </div>
+        <input class="btn btn-primary" type="submit" value="Update">
+      </form>
+    </div>
+  </div>
+  <input type="hidden" id="articleId" name="articleId">
+</div>
 </body>
 </html>
