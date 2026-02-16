@@ -1,4 +1,4 @@
-package org.yamendez.blog;
+package org.yamendez.blog.controller;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -8,10 +8,10 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet("/home")
-public class HomeServlet extends HttpServlet {
+@WebServlet("/article/1")
+public class ArticleServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        getServletContext().getRequestDispatcher("/index.html").forward(req, resp);
+        getServletContext().getRequestDispatcher("/article.html").forward(req, resp);
     }
 }

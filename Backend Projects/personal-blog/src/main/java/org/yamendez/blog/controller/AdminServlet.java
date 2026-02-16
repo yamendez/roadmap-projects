@@ -1,4 +1,4 @@
-package org.yamendez.blog;
+package org.yamendez.blog.controller;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
